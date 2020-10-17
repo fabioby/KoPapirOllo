@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:screenOrientation="portrait">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp">
+
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/heart2"
+            android:id="@+id/p_h1"/>
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/heart2"
+            android:id="@+id/p_h2"/>
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/heart2"
+            android:id="@+id/p_h3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gép       "
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Játékos"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/heart2"
+            android:id="@+id/c_h1"/>
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/heart2"
+            android:id="@+id/c_h2"/>
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/heart2"
+            android:id="@+id/c_h3"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/rock"
+        android:id="@+id/img_player"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ez a te válaszod"
+        android:layout_marginBottom="40sp"
+        android:textSize="35sp"/>
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/rock"
+        android:id="@+id/img_computer"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10sp"
+    android:text="A gép válasza"
+    android:textSize="35sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/rock"
+            android:id="@+id/button_rock"/>
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/paper"
+            android:id="@+id/button_paper"/>
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/scissors"
+            android:id="@+id/button_scissors"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Döntetlen: 0  "
+            android:textSize="20sp"
+            android:id="@+id/text_tie"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player: 0  "
+            android:textSize="20sp"
+            android:id="@+id/text_player"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer: 0"
+            android:textSize="20sp"
+            android:id="@+id/text_computer"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
